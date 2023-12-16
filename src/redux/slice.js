@@ -15,4 +15,6 @@ export const toDoSlice = createSlice({
   },
 });
 
+export const selectTodos = state => state.todos;
+
 export const { createToDo, deleteToDo } = toDoSlice.actions;
